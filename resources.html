@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Resources</title>
+  </head>
+  <body>
+    <a class = "skip" href="#main">Skip to Main Content</a>
+     <header>
+       <nav>
+        <img src = "images/logo.png"/> 
+        <ul id="links"> 
+          <li><a href = "worldoftea.html">Home</a></li>
+          <li><a href = "typesoftea.html">Types of Tea</a></li>
+          <li><a href = "trivia.html">Trivia</a></li>
+          <li><a href = "resources.html">Resources</a></li>
+        </ul>
+      </nav>
+     </header>
+     <main id = "main">
+      <h2></h2>
+      <p> </p>
+      <div class="contact">
+        <form action="action_page.php">
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject">
+              <option value="question">Question</option>
+              <option value="suggestion">Suggestion</option>
+              <option value="problem">Problem with Website</option>
+              <option value="other">Other</option>
+          </select>
+          <label for="fname">Full Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Email address..">
+      
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write something.." style="height:250px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div> 
+     </main>
+
+     <footer> 
+        <p> Designed by Alexandra Ioana Maxim © 2021 </p>
+      </footer>
+  </body>
+</html>
