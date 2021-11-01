@@ -1,4 +1,8 @@
 
+html{ 
+    scroll-behavior: smooth;
+}
+
 #homet { 
     font-family: 'Zen Kurenaido', serif;
 }
@@ -22,7 +26,7 @@ a.skip{
 
 /* navigation bar */
 nav{ 
-    background: url("file:///c:/Users/pooki/Documents/Portfolio/images/light-green-texture-background.jpg"), #cbf8b7;
+    background: url("file:///c:/Users/pooki/Documents/Portfolio/images/light-green-texture-background.jpg"), #cbdfc2;
     height: 100%;
     border-bottom: 2px solid rgb(156, 160, 156);
     border-right: 1px solid rgb(156, 160, 156); 
@@ -109,7 +113,6 @@ body p{
     display: grid;
     margin-bottom: 15%;
     grid-template-rows: auto auto auto;
-    grid-gap: 15px;
     justify-content: space-evenly; 
     justify-items: center;
 }
@@ -117,17 +120,18 @@ body p{
 .homecups img { 
     height: 200px;
     width: 200px;
-    /* padding: 15px; */
     max-width: 100%;
 }
 
+/* 
 .homecups img:hover{
     border: 2px solid #2f3d39;;
-}
+} */
 
-#description{ 
+.subgr { 
     display: grid;
-
+    grid-template-columns: subgrid;
+    margin-bottom: 5%;
 }
 
 /* Types of Tea page */
@@ -142,6 +146,30 @@ body p{
 .nine > img{ 
     height: 1rem;
     max-width: 100%;
+}
+
+/* trivia page */
+#paral{ 
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: cover; 
+  margin-top: 3%;
+  height: 10rem;
+  max-width: 100%;
+  grid-area: 1 / 1 / span 1 / -1;
+  background-image: url("file:///c:/Users/pooki/Documents/Portfolio/images/hightea.jpg");
+  background-repeat: no-repeat;
+}
+
+#paral > p{ 
+  color: white;
+  background:rgb(67, 71, 66, 0.75);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -125%);
+  font-size: x-large;
+  white-space: nowrap;
 }
 
 /* resources page */
@@ -171,7 +199,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #65837B;
+    background-color: #3E564F;
     color: white;
     padding: 10px;
     border: none;
