@@ -26,7 +26,7 @@ a.skip{
 
 /* navigation bar */
 nav{ 
-    background: #d7e0d4;
+    background: #c8d8c2;
     height: 100%;
     border-bottom: 2px solid rgb(156, 160, 156);
     border-right: 1px solid rgb(156, 160, 156); 
@@ -148,6 +148,13 @@ body p{
     max-width: 100%;
 }
 
+#info{ 
+    background: none;
+    border: 2px dashed #65837B;
+    margin: 5%;
+    text-align: center;
+}
+
 /* trivia page */
 /* #paral{ 
   background-attachment: fixed;
@@ -172,12 +179,54 @@ body p{
   white-space: nowrap;
 } */
 
+#paral > p{ 
+    background:none;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 5%;
+    border: 2px dashed #65837B;
+}
+
 h2{ 
     color:rgb(55, 58, 55);
     text-align: center;
     text-decoration: underline;
     font-size: 24px;
     margin: 5px;
+}
+
+.quiz{ 
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.quiz img{ 
+    position: relative;
+    text-align: center;
+}
+
+#question{ 
+    text-align: center;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+}
+
+#ans{ 
+    
+    font-size: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+    padding-top: 0%;
+    background: none;
+}
+
+#ans:active {
+    
+    width: 70px;
+    height: 74px;
 }
 
 /* resources page */
@@ -260,3 +309,18 @@ footer p{
     width: 100%;
 }
 
+/* tablet */
+
+
+/* desktop */
+@media screen and (min-width: 850px){
+    .nine {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        margin-bottom: 20%;
+      }
+
+}
