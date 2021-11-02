@@ -26,7 +26,7 @@ a.skip{
 
 /* navigation bar */
 nav{ 
-    background: url("file:///c:/Users/pooki/Documents/Portfolio/images/light-green-texture-background.jpg"), #cbdfc2;
+    background: #d7e0d4;
     height: 100%;
     border-bottom: 2px solid rgb(156, 160, 156);
     border-right: 1px solid rgb(156, 160, 156); 
@@ -149,7 +149,7 @@ body p{
 }
 
 /* trivia page */
-#paral{ 
+/* #paral{ 
   background-attachment: fixed;
   background-position: center; 
   background-size: cover; 
@@ -170,17 +170,49 @@ body p{
   transform: translate(-50%, -125%);
   font-size: x-large;
   white-space: nowrap;
-}
+} */
 
-/* resources page */
 h2{ 
     color:rgb(55, 58, 55);
-    text-align: left;
+    text-align: center;
     text-decoration: underline;
     font-size: 24px;
     margin: 5px;
 }
 
+/* resources page */
+
+#seller{ 
+    color:rgb(55, 58, 55);
+    text-align: center;
+    font-size: 26px;
+    margin: 10%;
+    border: 2px dashed #65837B;
+}
+
+.Sellers li::before {
+    content: "\1F375";
+  }
+  
+.Sellers li{ 
+    text-align: left;
+    margin: 0%;
+    padding: 0%;
+    color:rgb(39, 117, 19);
+    font-size: 110%;
+    font-weight: 100;
+}
+
+.Sellers a:visited{ 
+    color:rgb(39, 117, 19);
+}
+
+#field{ 
+    max-width: 100%;
+    border-radius:1rem;
+}
+
+/* form */
 .contact {
     border-radius: 3px;
     background-color: rgb(207, 209, 204);
