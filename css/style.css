@@ -26,7 +26,8 @@ a.skip{
 
 /* navigation bar */
 nav{ 
-    background: #c8d8c2;
+    background: #d2d6d0;
+    color:rgb(55, 58, 55);
     height: 100%;
     border-bottom: 2px solid rgb(156, 160, 156);
     border-right: 1px solid rgb(156, 160, 156); 
@@ -187,12 +188,12 @@ body p{
     border: 2px dashed #65837B;
 }
 
-h2{ 
-    color:rgb(55, 58, 55);
+#paral > h1{ 
+    font-size: 1.5rem;
+    font-family: 'Zen Kurenaido', serif;
+    color: rgb(67, 71, 66);
     text-align: center;
     text-decoration: underline;
-    font-size: 24px;
-    margin: 5px;
 }
 
 .quiz{ 
@@ -254,15 +255,31 @@ h2{
     border: 2px dashed #65837B;
 }
 
-.Sellers li::before {
+#l1::before {
     content: "\1F375";
+  }
+#l2::before {
+    content: "\1F375";
+  }
+#l3::before {
+    content: "\1F375";
+  }
+#l4::before {
+    content: "\1F375";
+  }
+#l5::before {
+    content: "\1F375";
+  }
+
+  #l1, #l2, #l3, #l4, #l5{ 
+    color:rgb(39, 117, 19);
   }
   
 .Sellers li{ 
     text-align: left;
     margin: 0%;
     padding: 0%;
-    color:rgb(39, 117, 19);
+    color: rgb(67, 71, 66);
     font-size: 110%;
     font-weight: 100;
 }
