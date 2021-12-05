@@ -15,7 +15,7 @@
     <a class = "skip" href="#main">Skip to Main Content</a>
      <header>
        <nav>
-        <img src = "images/logo.png" alt = "logo with green background that says world of tea with smaller Japanese characters under"/> 
+        <img src = "images/logo.png" id = "logo" alt = "logo with green background that says world of tea with smaller Japanese characters under"/> 
         <ul id="links"> 
           <li><a href = "worldoftea.html">Home</a></li>
           <li><a href = "typesoftea.html">Types of Tea</a></li>
@@ -38,10 +38,11 @@
         <li id = "l5"><a href = "https://www.ustwotea.com/">Us Two Tea (Taiwan)</a></li>
           <li>- whole leaf blends, directly sourced from small farmers</li>
       </ul>
-      <img src = "images/field.jpg" alt = "A hilly green field of tea leaves" id = "field"/>
+      <!-- Credit: https://commons.wikimedia.org/wiki/File:Tea_fields_(Will_Ellis).jpg -->
+      <div class = field title = "A hilly green field of tea leaves"><p>Ask Us Anything</p></div>
       <h2>Have questions? Contact us below:</h2>
       <div class="contact">
-        <form action="action_page.php">
+        <form action = "https://formspree.io/f/moqrarae" method= "post" id = "responses" name = "responses">
           <label for="subject">Subject</label>
           <select id="subject" name="subject">
               <option value="question">Question</option>
@@ -58,13 +59,13 @@
           <label for="message">Message</label>
           <textarea id="message" name="message" placeholder="Write something.." style="height:250px"></textarea>
       
-          <input type="submit" value="Submit">
+          <input id = "submit" type="submit" name = "submit" value="Submit">
         </form>
-      </div> 
+      </div>
      </main>
 
      <footer> 
         <p> Designed by Alexandra Ioana Maxim © 2021 </p>
-      </footer>
+      </footer> 
   </body>
 </html>
