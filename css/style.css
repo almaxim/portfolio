@@ -352,7 +352,7 @@ button{
     width: 100%;
     height: 15rem;
     border-radius:1rem;
-    background-image: url("file:///c:/Users/pooki/Documents/Portfolio/images/field.jpg");
+    background-image: url("https://github.com/almaxim/portfolio/tree/main/images/field.jpg");
     background-size: cover;
     z-index: 300;
 }
